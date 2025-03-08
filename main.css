@@ -1,0 +1,30 @@
+body{
+    color: darkgoldenrod;
+    background-color: beige;
+}
+
+
+
+#new-book-btn {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgb(126, 120, 120);
+    color: rgb(37, 33, 23);
+    border: 2px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 300px;
+    padding: 30px;
+    border: 1px solid rgb(54, 50, 50);
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px 8px rgb(126, 120, 120);
+}
+
