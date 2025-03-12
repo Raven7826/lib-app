@@ -1,30 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    color: darkgoldenrod;
-    background-color: beige;
+    color: rgb(192, 213, 220);
+    background-color: rgb(189, 197, 201)
 }
 
 
 
 #new-book-btn {
-    display: block;
-    margin: auto;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-right: 5px;
+    padding: 22px;
     font-size: 18px;
-    background-color: rgb(126, 120, 120);
-    color: rgb(37, 33, 23);
+    background-color: black;
+    color:  lightgrey;
     border: 2px;
     border-radius: 12px;
     cursor: pointer;
 }
 
 form {
-    width: 300px;
+    width: 500px;
+    color: rgb(32, 35, 32);
     display: flex;
     flex-direction: column;
-    margin: 10px 300px;
+    margin: 25px;
     padding: 30px;
-    border: 1px solid rgb(54, 50, 50);
+    border: 1px solid rgb(60, 57, 57);
     border-radius: 12px;
     box-shadow: 2px 2px 8px 8px rgb(126, 120, 120);
 }
 
+
+
+ .wrapper{
+    margin-top: 160px;
+    margin-left:2px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px; 
+ }
+
+ .header{
+    color: rgb(28, 27, 27);
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .right-aligned-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -400px;
+    margin-right: 5px; 
+    height: 400px;
+   
+ }
+
+ 
