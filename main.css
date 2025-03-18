@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     color: rgb(192, 213, 220);
     background-color: rgb(189, 197, 201)
 }
@@ -18,7 +18,7 @@ body{
     padding: 22px;
     font-size: 18px;
     background-color: black;
-    color:  lightgrey;
+    color: lightgrey;
     border: 2px;
     border-radius: 12px;
     cursor: pointer;
@@ -38,32 +38,24 @@ form {
 
 
 
- .wrapper{
-    margin-top: 160px;
-    margin-left:2px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 24px; 
- }
 
- .header{
+
+.header {
     color: rgb(28, 27, 27);
     font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
- }
- 
- .right-aligned-image{
+}
+
+.right-aligned-image {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-top: -400px;
-    margin-right: 5px; 
+    margin-right: 5px;
     height: 400px;
-   
- }
 
- 
+}
